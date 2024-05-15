@@ -1,0 +1,22 @@
+{
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "warn",  // Allow console logs with a warning
+      "no-unused-vars": "warn", // Warn about unused variables
+      "camelcase": "error",   // Enforce camelCase for variables and functions
+      "indent": ["error", 2],  // Enforce 2 space indentation
+      "semi": ["error", "always"], // Enforce semicolons at the end of statements
+      "quotes": ["error", "single"], // Use single quotes for strings
+      "object-curly-spacing": ["error", "always"], // Enforce spacing inside curly braces
+      "array-bracket-spacing": ["error", "always"], // Enforce spacing inside array brackets
+      "no-multiple-empty-lines": ["error", { "max": 1 }], // Allow a maximum of one empty line
+      "eol": ["error", "lf"], // Enforce LF line endings (optional)
+      // Add more rules as needed
+    }
+  }
+  

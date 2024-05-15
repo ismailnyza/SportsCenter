@@ -1,0 +1,11 @@
+{
+    "singleQuote": true,  // Use single quotes for strings
+    "trailingComma": "all", // Add trailing commas to all objects and arrays
+    "printWidth": 100,      // Maximum line length
+    "tabWidth": 2,        // Indent size for tabs (adjust based on your indent rule in ESLint)
+    "semi": false,        // Disable semicolons (since ESLint enforces them)
+    "bracketSpacing": true, // Add spaces inside brackets
+    "arrowParens": "always", // Always use parentheses for arrow functions
+    // Add more Prettier options as needed
+  }
+  

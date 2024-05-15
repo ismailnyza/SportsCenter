@@ -1,0 +1,34 @@
+{
+  "name": "sportscenter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "eslint . --fix && prettier --write . && validate-commit-msg",
+    "serve": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailnyza/SportsCenter.git"
+  },
+  "author": "ismail nyzar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailnyza/SportsCenter/issues"
+  },
+  "homepage": "https://github.com/ismailnyza/SportsCenter#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "eslint": "^9.2.0",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run precommit"
+    }
+  }
+}
