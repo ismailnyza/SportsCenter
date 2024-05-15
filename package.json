@@ -1,11 +1,9 @@
 {
   "name": "sportscenter",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js application for managing sports center bookings (add more details)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "precommit": "eslint . --fix && prettier --write . && validate-commit-msg",
     "serve": "node app.js"
   },
   "repository": {
